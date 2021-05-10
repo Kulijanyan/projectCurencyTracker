@@ -1,6 +1,7 @@
 import requests
 
-url = "https://api.exchangeratesapi.io/v1/latest?access_key=466ea74ce6de1e0436ae7e9410eca725&base=USD&symbols=EUR,RUB"
+url = "http://api.exchangeratesapi.io/v1/latest?access_key=14ac6512ce2db0e6355ee053f6ad8827&base=EUR&symbols=USD,AMD,RUB"
+
 
 response = requests.request("GET", url)
 
